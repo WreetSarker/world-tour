@@ -1,0 +1,38 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+@media (max-width: 992px) {
+    #countries{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 668px) {
+    #countries{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.country{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    background-image: linear-gradient(45deg, rgb(25, 54, 54), rgb(7, 99, 116));
+}
+.country-name{
+    font-size: 45px;
+    color: bisque;
+}
+.capital{
+    font-size: 25px;
+    color: bisque;
+}
+#myDialog{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+button{
+    background-image: linear-gradient(45deg, cyan, blue);
+}
